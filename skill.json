@@ -1,0 +1,17 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "name": "boca-juniors"
+        }
+      }
+    }
+  }
+}
