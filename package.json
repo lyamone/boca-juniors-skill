@@ -1,0 +1,24 @@
+{
+  "name": "boca-juniors",
+  "version": "2.0.0",
+  "description": "Boca Juniors Skill",
+  "main": "index.js",
+  "scripts": {
+    "dialog": "ask dialog --locale es-ES",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "fact"
+  ],
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ask-sdk": "^2.0.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.409.0"
+  }
+}

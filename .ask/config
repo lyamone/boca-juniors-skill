@@ -2,17 +2,31 @@
   "deploy_settings": {
     "default": {
       "skill_id": "amzn1.ask.skill.f9554d37-bbde-4e8f-b215-4959c2e29ae5",
-      "was_cloned": true,
+      "was_cloned": false,
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "ede4b48b082bf07c45bdd2647abc0b01"
+          "eTag": "8b6e8b47e3a0e5053f0a21aa2da0062f"
         },
         "interactionModel": {
           "es-ES": {
             "eTag": "028fbec1e9eaea4ff16a7a2432ab7e17"
           }
-        }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:442056733941:function:serverlessrepo-boca-junio-alexaskillskitnodejsfact-YF0UYL7F10E",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "serverlessrepo-boca-junio-alexaskillskitnodejsfact-YF0UYL7F10E",
+            "handler": "index.handler",
+            "revisionId": "c4c74867-2e86-469a-9934-759a2e432dd8",
+            "runtime": "nodejs8.10"
+          }
+        ]
       }
     }
   }
