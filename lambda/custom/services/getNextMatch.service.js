@@ -17,7 +17,7 @@ function getNextMatch () {
                 console.log("Error", err);
             } else {
                 const obj = data.Items[0];
-                console.log(obj.local.Bool);
+                console.log(obj.local.B);
                 const match = {
                     date: moment(obj.date.S).fromNow(),
                     team: obj.team.S,

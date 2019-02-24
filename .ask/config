@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "serverlessrepo-boca-junio-alexaskillskitnodejsfact-YF0UYL7F10E",
             "handler": "index.handler",
-            "revisionId": "c4c74867-2e86-469a-9934-759a2e432dd8",
+            "revisionId": "d9e05938-d859-437f-bf36-6355677e4f62",
             "runtime": "nodejs8.10"
           }
         ]

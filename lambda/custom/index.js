@@ -7,6 +7,7 @@ const HelpHandler = require('./handlers/help.handler');
 const SessionEndedRequestHandler = require('./handlers/session-ended.handler');
 const CancelAndStopHandler = require('./handlers/cancel-stop.handler');
 
+const NextMatchRequestHandler = require('./handlers/nextMatch.handler');
 const skillBuilder = Alexa.SkillBuilders.standard();
 
 exports.handler = skillBuilder
@@ -15,6 +16,7 @@ exports.handler = skillBuilder
     HelpHandler,
     CancelAndStopHandler,
     SessionEndedRequestHandler,
+    NextMatchRequestHandler
   )
   .addErrorHandlers(ErrorHandler)
   .withTableName('bj-matches')

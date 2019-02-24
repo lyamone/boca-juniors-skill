@@ -1,33 +1,31 @@
 {
   "interactionModel": {
-      "languageModel": {
-          "invocationName": "boca juniors",
-          "intents": [
-              {
-                  "name": "AMAZON.CancelIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.HelpIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.StopIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.NavigateHomeIntent",
-                  "samples": []
-              },
-              {
-                  "name": "proximoPartido",
-                  "slots": [],
-                  "samples": [
-                      "proximo partido"
-                  ]
-              }
-          ],
-          "types": []
-      }
+    "languageModel": {
+      "invocationName": "boca juniors",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "nextMatch",
+          "slots": [],
+          "samples": ["proximo partido"]
+        }
+      ],
+      "types": []
+    }
   }
 }
